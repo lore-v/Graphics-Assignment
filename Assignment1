@@ -1,0 +1,13 @@
+1. Convert an Applet coordinate into standard Cartesian coordinate.
+2. Based on Cartesian coordinate (in Question1) construct a square grid (Fig.1) with origin (0,0) at the
+centre of screen. Use (a, b, c) as background colour and (m, n, p) as grid colour where values of a, b, c,
+m, n, p are set by the programmer. Draw X axis and Y axis with colour other than background colour.
+Include zoom -in or zoom-out facility. In this figure, a point is shown using square. Circle may be used
+alternatively instead of square. Keep size of the square/circle as variable and find the most suitable size
+based on eye estimation.
+
+Fig.1: Grid construction
+
+3. Develop a method plotpoint (x, y, C) to check if any point (x, y) can be plotted on the grid at
+appropriate position with colour C. Hence, draw basic shapes (line, square etc.) on the constructed grid
+by calling plotpoint() only.
